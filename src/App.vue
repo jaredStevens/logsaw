@@ -5,7 +5,7 @@
         <span class="font-weight-light">Zoovu Tech Exam</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-avatar tile height="60" width="175">
+      <v-avatar tile height="30" width="90">
         <img :src="image" />
       </v-avatar>
     </v-app-bar>
