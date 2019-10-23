@@ -1,5 +1,7 @@
 <template>
-  <v-container><p>Timer</p></v-container>
+  <v-container>
+    <p>Timer</p>
+  </v-container>
 </template>
 
 <script>
