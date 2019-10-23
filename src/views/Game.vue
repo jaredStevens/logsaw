@@ -1,4 +1,3 @@
-/* eslint-disable */
 <template>
   <v-container>
     <v-layout text-center row wrap>
