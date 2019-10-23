@@ -19,8 +19,10 @@
       <v-flex mb-5 xs12>
         <v-layout justify-center> </v-layout>
         <p>
-          Logsaw, a devious villian, has chopped our logo up and we have to put
-          it back together.
+          A lousy villain called Logsaw has cut our logo into pieces :(. The
+          player should rebuild it as fast as he can - but without making too
+          many mistakes, as they come at a price, and Logsaw is surely somewhere
+          out there, observing the players and their scores...
         </p>
       </v-flex>
 

@@ -8,10 +8,6 @@
       </v-flex>
 
       <v-flex xs12 mt-5 mb-4>
-        <Timer />
-      </v-flex>
-
-      <v-flex xs12 mt-5 mb-4>
         <Score />
       </v-flex>
 
@@ -43,13 +39,11 @@
 
 <script>
 // import draggable from "@/vuedraggable";
-import Timer from "@/components/Timer.vue";
 import Score from "@/components/Score.vue";
 import Place from "@/components/Place.vue";
 export default {
   name: "Game",
   components: {
-    Timer,
     Score,
     Place
   },
