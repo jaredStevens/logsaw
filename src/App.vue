@@ -2,7 +2,7 @@
   <v-app>
     <v-app-bar app>
       <v-toolbar-title class="headline text-uppercase">
-        <span class="font-weight-light">Zoovu Tech Exam</span>
+        <span class="font-weight-light">Jared Stevens Tech Exam</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-avatar tile height="30" width="90">
