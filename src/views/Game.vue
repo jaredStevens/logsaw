@@ -5,6 +5,7 @@
         <h1 class="display-2 font-weight-bold mb-3">
           Let's Play!
         </h1>
+        <h3></h3>
       </v-flex>
 
       <v-flex mt-5 mb-4 xs12>
@@ -23,7 +24,7 @@
       </v-flex>
 
       <v-flex xs12 mt-5 mb-4>
-        <p><strong>Pickup Cards</strong> (Drag Cards below to put them in order.)</p>
+        <p>Drag the cards to reveal the card we're looking for.</p>
         <v-flex class="hidden" row wrap justify-center>
           <draggable group="zoovu" :list="items" @start="drag = true" @end="drag = false">
             <v-avatar
@@ -40,7 +41,7 @@
       </v-flex>
 
       <v-flex xs12 mt-5 mb-4>
-        <p><strong>Zoovu Logo</strong> (Drag cards here to put the logo back together.)</p>
+        <p>Reveal Card Here</p>
         <v-flex row wrap justify-center>
           <draggable class="droppable" group="zoovu" :list="logo" @start="drag = true" @end="drag = false" @change="cardRevealed">
             <v-avatar

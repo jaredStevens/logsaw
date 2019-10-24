@@ -19,10 +19,7 @@
       <v-flex mb-5 xs12>
         <v-layout justify-center> </v-layout>
         <p>
-          A lousy villain called Logsaw has cut our logo into pieces :(. The
-          player should rebuild it as fast as he can - but without making too
-          many mistakes, as they come at a price, and Logsaw is surely somewhere
-          out there, observing the players and their scores...
+          Find the hidden card we're looking for.  You'll have 30 seconds to find the card we're looking for.  A bad guess, and we'll add 10 seconds to your limited time.  Good luck!!
         </p>
       </v-flex>
 
