@@ -119,7 +119,7 @@ export default {
         if(!this.winner) {
           setTimeout(this.updateScore, 1000)
         }
-      } if(this.score >= 45) {
+      } if(this.score >= 30) {
         this.refresh()
       }
     }
