@@ -18,6 +18,7 @@
               tile
               height="100px"
               width="100px"
+              :color="findMe.color"
             >
               <v-img contain height="75px" :src="findMe.src"></v-img>
             </v-avatar>
@@ -50,6 +51,7 @@
               :key="index"
               height="100px"
               width="100px"
+              :color="item.color"
             >
               <v-img contain height="75px" :src="item.src"></v-img>
             </v-avatar>
@@ -79,11 +81,11 @@ export default {
       findMe: null,
       winner: false,
       items: [
-        { name: "o2", src: require("@/assets/3.png"), id: 3 },
-        { name: "u", src: require("@/assets/5.png"), id: 5 },
-        { name: "v", src: require("@/assets/4.png"), id: 4 },
-        { name: "o1", src: require("@/assets/2.png"), id: 2 },
-        { name: "z", src: require("@/assets/1.png"), id: 1 }
+        { name: "o2", src: require("@/assets/3.png"), id: 3, color: "red" },
+        { name: "u", src: require("@/assets/5.png"), id: 5, color: "pink" },
+        { name: "v", src: require("@/assets/4.png"), id: 4, color: "purple" },
+        { name: "o1", src: require("@/assets/2.png"), id: 2, color: "green" },
+        { name: "z", src: require("@/assets/1.png"), id: 1, color: "yellow" }
       ],
       logo: []
     };
